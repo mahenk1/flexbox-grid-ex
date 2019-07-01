@@ -1,0 +1,15 @@
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid-column {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 428px) {
+  .grid-column {
+    flex: 1;
+  }
+}
